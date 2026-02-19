@@ -58,5 +58,7 @@ def answer(db: Session, id: int, provided: str):
         provided = provided,
         correct = (provided == training.sequence)
     )
-    
+    db.add(answer)
+    db.commit()
+    db.refresh(answer)
     return answer
