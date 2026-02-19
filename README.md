@@ -129,5 +129,5 @@ POST /training/{id}/answer
 
 ## 🧠 Considerações finais
 
-Ainda pretendo evoluir bastante esta API adicionando autenticação JWT, mais categorias como: palavras, constantes matemática, cartas e datas, e até estatísticas pessoais 
+Ainda pretendo evoluir bastante esta API adicionando autenticação JWT, mais categorias como: palavras, constantes matemáticas, cartas, datas, e até estatísticas pessoais 
 para cada usuário de erros e acertos.
